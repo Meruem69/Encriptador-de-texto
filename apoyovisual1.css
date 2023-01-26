@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(226, 221, 221);
+}
+.container{
+    margin: 10%;
+    width: 1440px;
+    height: 1024px;
+    padding: 5px;
+    background: ghostwhite;
+    border-radius: 25px;
+}
+.logo{
+    margin-top: 20px;
+    width: 100%;
+    float: left;  
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+.right{
+    float: right;
+    width: 400px;
+    height: 870px;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 25px;
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    background: ghostwhite;
+}
+.logoImg{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+.tittle{
+    float: inherit;
+    margin-left: 14%;
+}
+.text-input{
+    word-wrap: break-word !important;
+    margin-left: 16%;
+    margin-top: 10%;
+    width: 750px;
+    height: 100px;
+    color: #0a3871;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    background: ghostwhite;
+}  
+.text-input::placeholder {
+    color: #0a3871;
+    opacity: 0.9;
+  }
+#imgDer{
+    margin-left: 2%;
+    margin-top: 175px;
+    width: auto;
+    height: auto;
+}
+#texto{
+    text-align: center;
+    margin-top: 60px;
+}
+#texto2{
+    float: left;
+    margin-top: 35px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 150px;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border: none;
+    resize: none;
+    background: ghostwhite;
+}
+#btn-encriptar{
+    padding: 24px;
+    width: 35%;
+    height: 18%;
+    border-radius: 24px;
+    margin-left: 16%;
+    background: #0a3871;
+    color: white;
+}
+#btn-desencriptar{
+    padding: 24px;
+    width: 35%;
+    height: 18%;
+    border-radius: 24px;
+    margin-left: 5%;
+    background: #d8dfe8;
+    color: #0a3871;
+}
+#copiar{
+    position: relative;
+    margin-left: 15%;
+    margin-top: 750px;
+    padding: 24px;
+    width: 75%;
+    height: 7%;
+    background: ghostwhite;
+    border-radius: 24px;
+    display: none;
+    color: #0a3871;
+}
+.texto3{
+    display: inline-block;
+   margin-left: 15px;
+   font-size: 18px;
+}
+.icono{
+    display: inline-block;
+    margin-left: 190px;
+}
